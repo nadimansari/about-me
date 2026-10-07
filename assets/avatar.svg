@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" role="img" aria-label="Avatar placeholder">
+  <rect width="220" height="220" fill="#2438d6"/>
+  <circle cx="175" cy="45" r="70" fill="#1a2aa8"/>
+  <circle cx="30" cy="200" r="60" fill="#ffb020" opacity=".9"/>
+  <circle cx="110" cy="88" r="34" fill="#eef2fb"/>
+  <path d="M42 220c0-44 31-72 68-72s68 28 68 72z" fill="#eef2fb"/>
+  <text x="110" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-weight="800" font-size="26" fill="#2438d6">NA</text>
+</svg>

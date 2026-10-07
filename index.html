@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nadim Ansari | Java Developer</title>
+  <meta name="description" content="Portfolio of Nadim Ansari, MCA graduate and Java developer working with Spring Boot, Spring Security, JPA and MySQL.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="nav">
+  <a class="nav__brand" href="#top">Nadim Ansari</a>
+  <nav class="nav__links" aria-label="Main">
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__inner">
+      <div class="hero__copy">
+        <p class="hero__tag">Open to entry-level Java Developer roles</p>
+        <h1>I build secure Java backends that real users can rely on.</h1>
+        <p class="hero__lead">
+          Hi, I'm Nadim, a recent MCA graduate from Delhi. I work with Spring Boot, Spring Security
+          and MySQL, and I like turning a rough idea into a tested, documented API.
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--amber" href="#projects">See my projects</a>
+          <a class="btn btn--ghost" href="assets/Nadim_Resume.pdf" download>Download resume</a>
+        </div>
+      </div>
+
+      <!-- One orchestrated moment: a request travelling through the layers of a Spring Boot app -->
+      <figure class="stack" aria-label="A request travelling through the layers of a Spring Boot application">
+        <ol class="stack__list">
+          <li class="layer" style="--i:0"><span class="layer__dot"></span><div><b>POST /api/groups</b><small>Request from the React client</small></div></li>
+          <li class="layer" style="--i:1"><span class="layer__dot"></span><div><b>JWT filter</b><small>Spring Security checks the token</small></div></li>
+          <li class="layer" style="--i:2"><span class="layer__dot"></span><div><b>Controller</b><small>REST endpoint, documented in Swagger</small></div></li>
+          <li class="layer" style="--i:3"><span class="layer__dot"></span><div><b>Service</b><small>Business rules, covered by tests</small></div></li>
+          <li class="layer" style="--i:4"><span class="layer__dot"></span><div><b>Repository</b><small>Spring Data JPA</small></div></li>
+          <li class="layer" style="--i:5"><span class="layer__dot"></span><div><b>MySQL</b><small>Relational schema</small></div></li>
+        </ol>
+        <figcaption>How my Study Group Finder handles a request</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about wrap">
+    <img class="about__photo" src="assets/avatar_nadim.jpg" alt="Portrait placeholder for Nadim Ansari" width="220" height="220">
+    <div class="about__text">
+      <h2>About me</h2>
+      <p>
+        I'm a recent MCA graduate looking for my first Java Developer role. I want to work on real
+        projects, learn from a team, and grow into a solid software professional.
+      </p>
+      <p>
+        My strongest ground is Core Java and object-oriented design. I'm comfortable designing MySQL
+        schemas and writing the queries that sit on top of them, and I pick up new frameworks quickly.
+      </p>
+      <ul class="facts">
+        <li><b>Based in</b> Delhi, India</li>
+        <li><b>Degree</b> MCA, 2026</li>
+        <li><b>Focus</b> Java backend</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="wrap section">
+    <h2 class="section__title">What I work with</h2>
+    <div class="skills">
+      <article class="card card--feature">
+        <h3>Backend</h3>
+        <p class="card__sub">The stack behind both of my projects</p>
+        <ul class="chips">
+          <li>Spring Boot</li><li>Spring Security</li><li>Spring Data JPA</li><li>REST APIs</li><li>JWT Authentication</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h3>Languages</h3>
+        <ul class="chips">
+          <li>Core Java</li><li>JavaScript</li><li>C</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h3>Databases</h3>
+        <ul class="chips">
+          <li>MySQL</li><li>MongoDB</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h3>Tools and cloud</h3>
+        <ul class="chips">
+          <li>Git</li><li>Maven</li><li>Docker</li><li>Swagger / OpenAPI</li><li>AWS</li><li>SailPoint</li>
+        </ul>
+      </article>
+      <article class="card card--ink">
+        <h3>Strong Points</h3>
+        <ul class="strengths">
+          <li>Strong command of OOP principles</li>
+          <li>Quick to learn new technologies</li>
+          <li>Clear communicator with an analytical mindset</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="wrap section">
+    <h2 class="section__title">Projects</h2>
+
+    <article class="project">
+      <img class="project__cover" src="assets/study-group.svg" alt="Illustration of a study group chat screen with a ratings leaderboard" width="640" height="420">
+      <div class="project__body">
+        <h3>Study Group Finder</h3>
+        <ul class="chips chips--small">
+          <li>Spring Boot</li><li>React</li><li>MySQL</li><li>JWT</li><li>WebSocket</li>
+        </ul>
+        <p>
+          A full-stack web app where university students discover, create and join study groups.
+          It includes real-time chat, session scheduling and a ratings leaderboard.
+        </p>
+        <ul class="points">
+          <li>Secure REST APIs with Spring Boot, Spring Security and JWT login, backed by Spring Data JPA and a MySQL schema.</li>
+          <li>Containerized with Docker and documented with Swagger/OpenAPI.</li>
+          <li>Core services covered by unit and integration tests.</li>
+        </ul>
+        <a class="link" href="https://github.com/nadimansari/study-group-finder" target="_blank" rel="noopener">View on GitHub</a>
+      </div>
+    </article>
+
+    <article class="project project--flip">
+      <img class="project__cover" src="assets/elearning.svg" alt="Illustration of an e-learning desktop dashboard with course progress bars" width="640" height="420">
+      <div class="project__body">
+        <h3>E-Learning System</h3>
+        <ul class="chips chips--small">
+          <li>Java</li><li>MySQL</li>
+        </ul>
+        <p>
+          A desktop application built with Core Java and MySQL to manage courses and student data.
+        </p>
+        <ul class="points">
+          <li>Modules for course management, progress tracking, interactive learning tools and secure data handling.</li>
+          <li>Worked through the full development cycle, from design to debugging and deployment.</li>
+          <li>Fixed real project errors and optimized database queries along the way.</li>
+        </ul>
+        <a class="link" href="https://github.com/nadimansari" target="_blank" rel="noopener">View on GitHub</a>
+      </div>
+    </article>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="wrap section">
+    <h2 class="section__title">Education</h2>
+    <ol class="timeline">
+      <li><time>2026</time><div><b>MCA</b><span>R D Engineering College, Duhai, Ghaziabad</span></div><em>76%</em></li>
+      <li><time>2023</time><div><b>BCA</b><span>D K College, Dumraon (Buxar), Bihar</span></div><em>71%</em></li>
+      <li><time>2019</time><div><b>Intermediate (PCM)</b><span>Inter College, Dumraon, Buxar, Bihar</span></div><em>60%</em></li>
+      <li><time>2017</time><div><b>Matriculation (10th)</b><span>CPSS High School, Dumraon, Buxar, Bihar</span></div><em>61%</em></li>
+    </ol>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <div class="wrap contact__inner">
+      <h2>Let's talk about your next Java hire.</h2>
+      <p>I'm available for entry-level Java Developer roles. Email is the fastest way to reach me.</p>
+      <div class="hero__actions">
+        <a class="btn btn--amber" href="mailto:nadimbxr2003@gmail.com">nadimbxr2003@gmail.com</a>
+        <button class="btn btn--ghost" id="copy-email" type="button">Copy email</button>
+      </div>
+      <ul class="contact__links">
+        <li><a href="https://github.com/nadimansari" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://linkedin.com/in/nadim-ansari" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="tel:+918789591446">+91 8789591446</a></li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <p>&copy; <span id="year">2026</span> Nadim Ansari. Built with HTML and CSS.</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

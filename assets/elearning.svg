@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-label="E-learning dashboard illustration">
+  <rect width="640" height="420" fill="#eef2fb"/>
+  <rect x="40" y="36" width="560" height="348" rx="18" fill="#fff" stroke="#d9dff2" stroke-width="2"/>
+  <rect x="40" y="36" width="560" height="38" rx="18" fill="#14172b"/>
+  <rect x="40" y="56" width="560" height="18" fill="#14172b"/>
+  <circle cx="64" cy="55" r="6" fill="#ffb020"/><circle cx="84" cy="55" r="6" fill="#7ed9b8"/><circle cx="104" cy="55" r="6" fill="#9aa3cc"/>
+  <rect x="40" y="74" width="130" height="310" fill="#2438d6"/>
+  <rect x="40" y="366" width="130" height="18" rx="9" fill="#2438d6"/>
+  <rect x="60" y="96" width="70" height="10" rx="5" fill="#fff"/>
+  <rect x="60" y="128" width="90" height="8" rx="4" fill="#fff" opacity=".6"/>
+  <rect x="60" y="152" width="76" height="8" rx="4" fill="#fff" opacity=".6"/>
+  <rect x="60" y="176" width="84" height="8" rx="4" fill="#fff" opacity=".6"/>
+  <rect x="196" y="94" width="150" height="14" rx="7" fill="#14172b"/>
+  <rect x="196" y="126" width="124" height="104" rx="14" fill="#eef2fb"/>
+  <rect x="212" y="142" width="60" height="9" rx="4.5" fill="#2438d6"/>
+  <rect x="212" y="196" width="92" height="8" rx="4" fill="#d9dff2"/><rect x="212" y="196" width="64" height="8" rx="4" fill="#7ed9b8"/>
+  <rect x="336" y="126" width="124" height="104" rx="14" fill="#eef2fb"/>
+  <rect x="352" y="142" width="60" height="9" rx="4.5" fill="#2438d6"/>
+  <rect x="352" y="196" width="92" height="8" rx="4" fill="#d9dff2"/><rect x="352" y="196" width="40" height="8" rx="4" fill="#ffb020"/>
+  <rect x="476" y="126" width="104" height="104" rx="14" fill="#ffb020"/>
+  <circle cx="528" cy="178" r="30" fill="none" stroke="#14172b" stroke-width="9" opacity=".25"/>
+  <path d="M528 148a30 30 0 1 1-26 45" fill="none" stroke="#14172b" stroke-width="9" stroke-linecap="round"/>
+  <rect x="196" y="256" width="384" height="14" rx="7" fill="#14172b"/>
+  <rect x="196" y="288" width="384" height="22" rx="8" fill="#eef2fb"/><rect x="196" y="288" width="260" height="22" rx="8" fill="#2438d6"/>
+  <rect x="196" y="322" width="384" height="22" rx="8" fill="#eef2fb"/><rect x="196" y="322" width="170" height="22" rx="8" fill="#7ed9b8"/>
+</svg>
