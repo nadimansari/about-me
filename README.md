@@ -1,12 +1,34 @@
-# Nadim Ansari - Portfolio
+# Nadim Ansari — Portfolio
 
-Open `index.html` in any browser. No build step needed.
+A simple personal portfolio website built with HTML and CSS.
 
-## Make it yours
-- Photo: replace `assets/avatar.svg` with your photo (keep it square) and update the `src` in `index.html`.
-- Project links: both "View on GitHub" buttons point to your GitHub profile. Swap in the exact repo URLs.
-- Resume: `assets/Nadim_Resume.pdf` is linked from the Download resume button.
-- Colors: edit the variables at the top of `css/style.css`.
+## 🚀 Getting Started
 
-## Publish for free
-Upload the folder to GitHub, then turn on GitHub Pages in the repo settings. Netlify drag-and-drop also works.
+Open `index.html` in any web browser.  
+**No build step or installation is required.**
+
+## ✏️ Make It Yours
+
+- **Profile Photo:** Replace `assets/avatar_nadim.jpg` with your own square photo and update the `src` in `index.html`.
+- **Project Links:** Replace the GitHub profile links with the exact URLs of your project repositories.
+- **Resume:** Add your resume as `assets/Nadim_Resume.pdf`. The **Download Resume** button will link to it.
+- **Colors:** Customize the website colors by editing the variables at the top of `css/style.css`.
+
+## 🌐 Publish for Free
+
+### GitHub Pages
+1. Upload the project folder to a GitHub repository.
+2. Go to **Settings → Pages**.
+3. Select the appropriate branch and folder.
+4. Save and wait for GitHub Pages to publish your site.
+
+### Netlify
+You can also deploy the portfolio using Netlify's drag-and-drop deployment.
+
+## 👨‍💻 Author
+
+**Nadim Ansari**
+
+GitHub: [Your GitHub Profile](https://github.com/nadimansari)
+
+LinkedIn: [Nadim Ansari](https://www.linkedin.com/in/nadim-ansari/)
